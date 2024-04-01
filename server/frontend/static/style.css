@@ -124,3 +124,18 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+
+.vertical {
+    display:inline-block;
+    border-left: 3px solid dimgray;
+    height: auto;
+}
+
+.contact-details {
+    align-items: center;
+    font-size: 12px;
+    color:cornflowerblue;
+    padding:20px;
+    width:50%;
+    height:auto;
+}
