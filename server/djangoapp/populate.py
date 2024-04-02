@@ -33,7 +33,7 @@ def initiate():
       {"name":"Kluger", "type":"SUV", "year": 2023, "car_make":car_make_instances[4], "dealer_id":5},
         # Add more CarModel instances as needed
     ]
-    print(car_make_instances)
+    
     for data in car_model_data:
         print(data)
         CarModel.objects.create(name=data['name'], car_make=data['car_make'], type=data['type'], year=data['year'], dealer_id=data['dealer_id'])
